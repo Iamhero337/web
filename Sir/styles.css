@@ -420,9 +420,7 @@ body {
     object-position: center; }
   .product-card-body .new-tag {
     background-color: #000000;
-    /* Choose your desired background color */
     color: #fff;
-    /* Text color for the "new" tag */
     font-weight: bold;
     padding: 3px 6px;
     border-radius: 5px;
