@@ -418,6 +418,17 @@ body {
     border-top-right-radius: 32px;
     object-fit: cover;
     object-position: center; }
+  .product-card-body .new-tag {
+    background-color: #000000;
+    /* Choose your desired background color */
+    color: #fff;
+    /* Text color for the "new" tag */
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px; }
   .product-card-footer {
     padding: 12px; }
     .product-card-footer .product-card-title {
