@@ -1,0 +1,12 @@
+$gutter-gap: 20px;
+
+.columns {
+	display: flex;
+	gap: $gutter-gap;
+	flex-wrap: wrap;
+
+	.column {
+		width: calc(25% - 20px);
+	}
+
+}
