@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-card {
+            width: 400px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5%;
+        }
+        .card-image {
+            width: 50%;
+            float: left;
+        }
+        .card-image img {
+            width: 100%;
+            height: auto;
+        }
+        .card-form {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .card-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1698160179366-4e0e313740ab?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==" alt="Image">
+        </div>
+        <div class="card-form">
+            
+            <form>
+                <p>Email</p>
+                <input type="email" placeholder="Email@xxmail.com" required>
+                <p>Password</p>
+                <input type="password" placeholder="xxxPasswordxxx" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
